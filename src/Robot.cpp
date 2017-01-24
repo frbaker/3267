@@ -11,9 +11,12 @@
 #include "CommandBase.h"
 
 
+<<<<<<< Updated upstream
 #include "AHRS.h"
 #include "CANTalon.h"
 
+=======
+>>>>>>> Stashed changes
 class Robot: public frc::IterativeRobot {
 public:
 	void RobotInit() override {
