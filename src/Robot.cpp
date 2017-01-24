@@ -10,6 +10,10 @@
 #include "Commands/ExampleCommand.h"
 #include "CommandBase.h"
 
+
+#include "AHRS.h"
+#include "CANTalon.h"
+
 class Robot: public frc::IterativeRobot {
 public:
 	void RobotInit() override {
